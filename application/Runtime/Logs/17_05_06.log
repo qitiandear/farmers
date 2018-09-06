@@ -1,0 +1,634 @@
+[ 2017-05-06T11:11:58+08:00 ] 127.0.0.1 /xiaowu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.037630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037708s ]
+
+[ 2017-05-06T12:20:23+08:00 ] 127.0.0.1 /xiaowu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.167892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012398s ]
+
+[ 2017-05-06T12:20:31+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.025178s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003883s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000195s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000118s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000141s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2017-05-06T12:23:08+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.009808s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.005240s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003326s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000238s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000149s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000216s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2017-05-06T12:23:43+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.004031s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.012464s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003260s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000204s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000127s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000108s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2017-05-06T12:23:53+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003589s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003401s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000219s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000155s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000176s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2017-05-06T12:23:59+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003963s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003319s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000318s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000204s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000150s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-05-06T12:24:04+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.014013s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.044657s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000144s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000162s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000183s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-05-06T12:24:04+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.004838s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003282s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000216s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000233s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000159s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-05-06T12:24:04+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.004401s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003825s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000250s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000167s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000150s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002083s ]
+
+[ 2017-05-06T13:58:22+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.688178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.152489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.152558s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.091789s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.045084s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000267s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000170s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000141s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.496280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.496363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.060079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.060134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.056135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.056188s ]
+
+[ 2017-05-06T13:58:23+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.687965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.152668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.152728s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.089498s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.139595s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.005325s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000292s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000171s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000164s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2017-05-06T14:05:26+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.030329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030378s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.004343s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004071s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000179s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000177s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000210s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012067s ]
+
+[ 2017-05-06T14:06:10+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003959s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003450s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000202s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000153s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000128s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-05-06T14:34:24+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.078019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.658220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.658273s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.238711s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004406s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000284s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000143s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000213s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.335440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.335485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.045011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045058s ]
+
+[ 2017-05-06T14:34:24+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003755s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003567s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000279s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000169s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000168s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2017-05-06T15:44:54+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004677s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.025717s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004628s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000242s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000203s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000144s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023405s ]
+
+[ 2017-05-06T15:45:14+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.004045s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003293s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000192s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000167s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000465s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-05-06T15:45:31+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003441s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003377s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000259s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000170s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000168s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2017-05-06T15:48:21+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.016603s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003803s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000185s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000210s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000134s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-05-06T16:15:01+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004368s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.019724s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003681s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000248s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000177s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.296606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.039968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.045379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045451s ]
+
+[ 2017-05-06T16:16:15+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003480s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003722s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000163s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000120s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000117s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-05-06T16:18:46+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.020143s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004115s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000197s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000126s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000116s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2017-05-06T16:26:30+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015440s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003306s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004413s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000202s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000157s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000201s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011976s ]
+

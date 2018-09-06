@@ -1,0 +1,81 @@
+    
+  <div class="top_bg">
+    <!-- logo一行 -->
+    <div class="logo_top">
+      <!-- 左边logo -->
+      <div style="float:left;width:auto;">
+      <a class="left" href="__APP__/"><img src="__ROOT__/public/images/toplogo.png" /></a>
+      </div>
+      <!-- 右边搜索框 -->
+      <form action="__APP__/Search/index.html" method="get" onsubmit="return Searchword()">
+      <div class="top_right">
+   
+        <!-- 搜索框 -->
+        <div class="search float_right">
+          <input type="text" class="inpt_a" placeholder="请输入关键字" name="keyword" id="txt_search" />
+          <div>
+        
+            <input type="submit" class="subBg" value="" />
+            <!-- <img src="__ROOT__/public/images/sousuo.png" style=""> --> 
+           
+          </div>
+        </div>
+      </div>
+</form>
+      <div class="clear"></div>
+
+    </div>
+    <!-- nav -->
+    <div id="nav">
+      <ul class="c" id="menuList">
+        <li><span class="v"><a href="__APP__" class="">首 页</a></span> </li>
+        <!-- 个人金融 -->
+        <volist name="arr" id="v">
+        <li> <span class="v"><a href="#">{$v.typeName}</a></span>
+          <!-- 个人金融下拉 -->
+          
+
+          <div class="kind_menu">
+
+ <volist name="v.typeer" id="vv">
+            <span class="nav1">
+           
+              <h2><a href="__APP__/Listtype/index/typeId/{$vv.typesan.0.typeId}">{$vv.typeName}</a></h2>
+             
+              <div>
+              <volist name="vv.typesan" id="vvv">
+             <if condition="$vvv.linkUrl != NULL">
+               <a href="{$vvv.linkUrl}">{$vvv.typeName}</a>
+
+             <else/>
+
+                <a href="__APP__/Listtype/index/typeId/{$vvv.typeId}">{$vvv.typeName}</a>
+             </if>   
+                 </volist>
+              </div>
+             
+             <!--  <div class="yincang">
+               <a class="gengduo" style="color:#fcc37d">更多+</a>
+               <div style="display:none">
+                 <a href="">信合通VIP卡</a>
+                 <a href=>信合通圆梦卡</a>
+                 <a href="">信合通红领巾卡</a>
+               </div>
+             </div> -->
+            </span>  
+              </volist>
+          </div>
+          
+        </li>
+         </volist>
+      </ul>
+    </div>
+  </div>
+  <!-- banner -->
+  <div class="banner01 slidePanel">
+    <ul class="slides" id="gdtp">
+    <volist name="homeimg" id="v">
+      <li><a href='#'><img width="961" height="259" src='__ROOT__/public/{$v.imagepath}' /></a></li>
+    </volist>
+    </ul>
+  </div>

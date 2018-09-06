@@ -1,0 +1,1137 @@
+[ 2018-04-26T03:15:02+08:00 ] 60.191.52.254 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 系统不支持:mysql
+
+[ 2018-04-26T13:20:45+08:00 ] 192.168.8.223 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 系统不支持:mysql
+
+[ 2018-04-26T13:21:21+08:00 ] 192.168.8.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.025002s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.036002s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `imgpath` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `imgpath` WHERE ( state<9 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.048003s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 116 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.029001s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 130 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 131 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid = 132 ) ORDER BY typeId desc LIMIT 0,8   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2018-04-26T13:21:29+08:00 ] 192.168.8.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:29+08:00 ] 192.168.8.1 /admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:36+08:00 ] 192.168.8.1 /admin.php/Login/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' and password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:36+08:00 ] 192.168.8.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:36+08:00 ] 192.168.8.1 /admin.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T13:21:36+08:00 ] 192.168.8.1 /admin.php/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:36+08:00 ] 192.168.8.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-26T13:21:39+08:00 ] 192.168.8.1 /admin.php/Login/quit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T13:21:40+08:00 ] 192.168.8.1 /admin.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:44+08:00 ] 192.168.8.1 /admin.php/Login/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' and password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:45+08:00 ] 192.168.8.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:45+08:00 ] 192.168.8.1 /admin.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:45+08:00 ] 192.168.8.1 /admin.php/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:21:45+08:00 ] 192.168.8.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:22:36+08:00 ] 192.168.8.223 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `imgpath` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `imgpath` WHERE ( state<9 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 116 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 130 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 131 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid = 132 ) ORDER BY typeId desc LIMIT 0,8   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T13:22:55+08:00 ] 192.168.8.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:22:55+08:00 ] 192.168.8.1 /admin.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-26T13:22:55+08:00 ] 192.168.8.1 /admin.php/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-26T13:22:55+08:00 ] 192.168.8.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:22:58+08:00 ] 192.168.8.223 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 系统不支持:mysql
+
+[ 2018-04-26T13:22:59+08:00 ] 192.168.8.223 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 系统不支持:mysql
+
+[ 2018-04-26T13:23:01+08:00 ] 192.168.8.1 /admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T13:23:01+08:00 ] 192.168.8.1 /admin.php/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:23:01+08:00 ] 192.168.8.1 /admin.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:23:01+08:00 ] 192.168.8.1 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:23:04+08:00 ] 192.168.8.1 /admin.php/Login/quit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:23:05+08:00 ] 192.168.8.1 /admin.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:23:07+08:00 ] 192.168.8.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 系统不支持:mysql
+
+[ 2018-04-26T13:23:31+08:00 ] 192.168.8.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `imgpath` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `imgpath` WHERE ( state<9 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 116 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 130 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 131 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid = 132 ) ORDER BY typeId desc LIMIT 0,8   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-26T13:23:34+08:00 ] 192.168.8.223 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `imgpath` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `imgpath` WHERE ( state<9 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 116 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 130 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 131 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid = 132 ) ORDER BY typeId desc LIMIT 0,8   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:46:20+08:00 ] 106.120.160.109 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `imgpath` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `imgpath` WHERE ( state<9 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 116 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 130 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 131 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid = 132 ) ORDER BY typeId desc LIMIT 0,8   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-26T13:46:36+08:00 ] 220.181.132.199 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `imgpath` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `imgpath` WHERE ( state<9 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 116 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 130 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 131 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid = 132 ) ORDER BY typeId desc LIMIT 0,8   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

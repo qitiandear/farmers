@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>晋中开发区农村商业银行</title>
+  <link href="__ROOT__/public/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="__ROOT__/public/css/flexslider.css" rel="stylesheet" type="text/css" />
+
+  <script src="__ROOT__/library/js/jquery-1.11.0.min.js" charset="utf-8"></script>
+  <script src="__ROOT__/library/js/slider.js" type="text/javascript" ></script>
+  <script src="__ROOT__/library/js/common.js" charset="utf-8"></script>
+ 
+</head>
+<body>
+<div class="kuang">
+  <!-- 头部 -->
+<include file="Public:header"/>
+    <!-- 中间部分 -->
+    <div class="chon">
+        <p id="navigation">当前位置：<span>{$typeone.typeName}</span> &gt; <span>&nbsp;<a href="">{$typeer.typeName}</a></span> &gt; <span class="col_sred">&nbsp;<a href="">{$typesan.typeName}</a></span></p>
+          
+        <div class="cowr"><b class="txt_16 col_sred">{$typesan.typeName}</b></div>
+        <div class="nev_ch">
+            <div class="nev_a">
+        <ul id="thirdList">
+        <volist name="listNews" key="k" id="v">
+        <if condition="$new['typeId']==$v['typeId']">
+          <li class="hui_ba"><a href="__APP__/Listtype/index/typeId/{$v.typeId}">{$v.typeName}</a></li>
+          <else/>
+          <li ><a href="__APP__/Listtype/index/typeId/{$v.typeId}">{$v.typeName}</a></li>
+          </if>
+        </volist>
+        </ul>
+      </div>
+            <div class="nev_b">         
+                <div class="navigationSub">
+                    <div>
+                        <h1 class="f1" id="proName">{$new.title}</h1>
+                    </div>
+                    <div class="float_right" style="padding-top:5px;"><span id="releaseDate"></span></div>
+                </div>
+                           
+                <div class="sub_content" id="contentDetail">
+                    <!-- 产品定义 -->
+                    <div class="areaDesc">
+                    <if condition="$new.imagepath != NULL">
+                     <img src="__ROOT__/public/{$new.imagepath}" alt="" /> 
+                     </if>
+                      {$new.content}
+                      
+                </div>         
+            </div>
+        </div>       
+    </div>
+
+
+
+  <!-- 底部 -->
+  <include file="Public:footer"/>
+  <div class="clear"></div>
+</div>
+<script type="text/javascript" src="__ROOT__/library/js/davihha.js"></script>
+<!-- <div align="center">
+
+  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1258289861'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1258289861%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+
+</div> -->
+
+</body>
+</html>

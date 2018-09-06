@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
+    <title>五一理财购买活动</title>
+    <script type="text/javascript" src="__ROOT__/library/js/echarts.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body style="padding:0px;margin:0px;">
+    <div id="main" style="width: 460px;height:380px;padding:0px;margin:0px;"></div>
+    <div id="title" style="height:60px;border: 0px solid red;text-align:center;font-family:宋体;font-weight: bold;margin-top:0px;font-size:22px;color:#FFF;background-color:#af2638;">
+		当前购买人数与对应预期年化收益率
+	</div>
+	<div>
+	    <img src="__ROOT__/public/images/20180425163102.jpg" id="img_id">
+	</div>
+    <!--
+	<table style="border: 0px solid #000;margin-top: 5px;overflow-x: auto;font-family: 微软雅黑;font-size: 14px;margin-left: 30px;color:#FFF;">
+        <tr>
+            <td>当前产品购买人数：</td>
+            <td id="rs"></td>
+        </tr>
+		<tr>
+            <td>当前预期年化收益率：</td>
+            <td id="syl"></td>
+        </tr>
+    </table>
+	-->
+
+    <script type="text/javascript">
+
+
+        var sw = window.screen.availHeight;
+        var sh = window.screen.availWidth;
+
+        var worldMapContainer = document.getElementById('main');
+        var worldMapContainer1 = document.getElementById('title');
+        var worldMapContainer2 = document.getElementById('img_id');
+
+        //用于使chart自适应高度和宽度,通过窗体高宽计算容器高宽
+        var resizeWorldMapContainer = function () {
+            //alert(33);
+            worldMapContainer.style.width = (window.innerWidth)+'px';
+            worldMapContainer1.style.width = (window.innerWidth)+'px';
+            worldMapContainer.style.height = (window.innerWidth*0.90)+'px';
+            worldMapContainer2.style.height = (window.innerheight)+'px';
+            worldMapContainer2.style.width = (window.innerWidth)+'px';
+        };
+        //设置容器高宽
+        resizeWorldMapContainer();
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(worldMapContainer);
+
+
+        // 基于准备好的dom，初始化echarts实例
+        //var myChart = echarts.init(document.getElementById('main'));
+        //app.title = '嵌套环形图';
+
+        option = {
+			backgroundColor: '#af2638',
+			tooltip : {
+				formatter: "{a} <br/>{b} "
+			},
+			toolbox: {
+				feature: {
+					restore: false,
+					saveAsImage:false
+				}
+			},
+			series: [
+				{
+					name: '当前人数',
+					max: 2000,
+					type: 'gauge',
+					radius: '93%',
+					axisLine: {            // 坐标轴线
+                lineStyle: {       // 属性lineStyle控制线条样式
+                    color: [[0.09, 'lime'],[0.82, '#1e90ff'],[1, '#ff001e']],
+                    width: 8,
+                    shadowColor : '#fff', //默认透明
+                    shadowBlur: 10,
+
+                }
+            },
+            axisLabel: {            // 坐标轴小标记
+                textStyle: {       // 属性lineStyle控制线条样式
+                    fontWeight: 'bolder',
+                    color: '#fff',
+                    shadowColor : '#fff', //默认透明
+                    shadowBlur: 10
+                }
+            },
+            axisTick: {            // 坐标轴小标记
+                length :15,        // 属性length控制线长
+                lineStyle: {       // 属性lineStyle控制线条样式
+                    color: 'auto',
+                    shadowColor : '#fff', //默认透明
+                    shadowBlur: 10,
+		    
+                }
+            },
+            splitLine: {           // 分隔线
+                length :25,         // 属性length控制线长
+                lineStyle: {       // 属性lineStyle（详见lineStyle）控制线条样式
+                    width:3,
+                    color: '#fff',
+                    shadowColor : '#fff', //默认透明
+                    shadowBlur: 10,
+
+                }
+            },
+            pointer: {           // 分隔线
+                shadowColor : '#fff', //默认透明
+                shadowBlur: 5,
+		
+
+            },
+            title : {
+                textStyle: {       // 其余属性默认使用全局文本样式，详见TEXTSTYLE
+                    fontWeight: 'bolder',
+                    fontSize: 20,
+                    fontStyle: 'italic',
+                    color: '#fff',
+                    shadowColor : '#fff', //默认透明
+		  
+                    shadowBlur: 10
+                }
+            },
+            detail : {
+                backgroundColor: 'rgba(30,144,255,0.8)',
+                borderWidth: 1,
+                borderColor: '#fff',
+                shadowColor : '#fff', //默认透明
+                shadowBlur: 5,
+		
+                offsetCenter: [0, '50%'],       // x, y，单位px
+                textStyle: {       // 其余属性默认使用全局文本样式，详见TEXTSTYLE
+                    fontWeight: 'bolder',
+		     
+                    color: '#fff'
+                }
+            },
+					detail: {
+						formatter:'预期年化收益率5%',
+						textStyle: {
+                            color: '#fff',
+                            fontSize: 20
+                        }
+						},
+					data: [{value: 1900, name: '人数:1900人'}],
+				}
+			]
+		};
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+        //用于使chart自适应高度和宽度
+        window.onresize = function () {
+            //重置容器高宽
+            //resizeWorldMapContainer();
+            myChart.resize();
+        };	  
+		var read_rs = {$str};//更新当前人数
+		var read_syl = {$strs};//更新预期年化收益率
+		//document.getElementById("rs").innerText=read_rs+"人";
+		//document.getElementById("syl").innerText=read_syl+"%";
+		function refreshData(rs){
+			 if(!myChart){
+				  return;
+			 }			 
+			 //更新数据
+			  var option = myChart.getOption();			  
+			  option.series[0].data[0].value = read_rs;     
+			  option.series[0].data[0].name = '人数:'+read_rs+'人';     
+			  option.series[0].detail.formatter = '预期年化收益率'+read_syl+'%';     
+			  myChart.setOption(option);    
+		}	
+		refreshData();	
+    </script>
+
+</body>
+</html>

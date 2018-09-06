@@ -1,0 +1,1411 @@
+[ 2017-06-01T21:54:40+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000807s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-06-01T21:54:43+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004542s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 20,10 [ RunTime:0.000629s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-06-01T21:54:47+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `product` WHERE ( id=175 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: update book set count=count+'2' where id = '11' [ RunTime:0.055918s ]
+SQL: DELETE FROM `product` WHERE ( id=175 ) [ RunTime:0.027464s ]
+
+[ 2017-06-01T21:54:47+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004996s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-06-01T21:54:53+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/164
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004224s ]
+SQL: SELECT * FROM `product` WHERE ( id=164 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: update book set count=count+'3' where id = '16' [ RunTime:0.057120s ]
+SQL: DELETE FROM `product` WHERE ( id=164 ) [ RunTime:0.036363s ]
+
+[ 2017-06-01T21:54:53+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.008774s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000567s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.001539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-06-01T21:54:57+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004216s ]
+SQL: SELECT * FROM `product` WHERE ( id=163 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: update book set count=count+'3' where id = '19' [ RunTime:0.037640s ]
+SQL: DELETE FROM `product` WHERE ( id=163 ) [ RunTime:0.027833s ]
+
+[ 2017-06-01T21:54:57+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004314s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-06-01T21:54:59+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-06-01T21:55:21+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.034810s ]
+SQL: SELECT * FROM `product` WHERE ( id=162 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: update book set count=count+'4' where id = '12' [ RunTime:0.082810s ]
+SQL: DELETE FROM `product` WHERE ( id=162 ) [ RunTime:0.073869s ]
+
+[ 2017-06-01T21:55:21+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.001289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-06-01T21:55:25+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/149
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005292s ]
+SQL: SELECT * FROM `product` WHERE ( id=149 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: update book set count=count+'1' where id = '20' [ RunTime:0.074492s ]
+SQL: DELETE FROM `product` WHERE ( id=149 ) [ RunTime:0.027864s ]
+
+[ 2017-06-01T21:55:25+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010602s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000889s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.002284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003249s ]
+
+[ 2017-06-01T21:55:32+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/152
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.007266s ]
+SQL: SELECT * FROM `product` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: update book set count=count+'2' where id = '17' [ RunTime:0.086328s ]
+SQL: DELETE FROM `product` WHERE ( id=152 ) [ RunTime:0.038413s ]
+
+[ 2017-06-01T21:55:32+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004214s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000532s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.001085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2017-06-01T21:55:33+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/147
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003815s ]
+SQL: SELECT * FROM `product` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: update book set count=count+'2' where id = '11' [ RunTime:0.053657s ]
+SQL: DELETE FROM `product` WHERE ( id=147 ) [ RunTime:0.028942s ]
+
+[ 2017-06-01T21:55:33+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003712s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-06-01T21:56:12+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.006992s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-06-01T21:56:15+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/160
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.018258s ]
+SQL: SELECT * FROM `product` WHERE ( id=160 ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: update book set count=count+'2' where id = '13' [ RunTime:0.047973s ]
+SQL: DELETE FROM `product` WHERE ( id=160 ) [ RunTime:0.065152s ]
+
+[ 2017-06-01T21:56:15+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-06-01T21:56:16+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004415s ]
+SQL: SELECT * FROM `product` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: update book set count=count+'4' where id = '10' [ RunTime:0.032884s ]
+SQL: DELETE FROM `product` WHERE ( id=134 ) [ RunTime:0.038594s ]
+
+[ 2017-06-01T21:56:16+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003610s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-06-01T21:56:16+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/167
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005555s ]
+SQL: SELECT * FROM `product` WHERE ( id=167 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: update book set count=count+'2' where id = '24' [ RunTime:0.035052s ]
+SQL: DELETE FROM `product` WHERE ( id=167 ) [ RunTime:0.038528s ]
+
+[ 2017-06-01T21:56:16+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-06-01T21:56:17+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/157
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003516s ]
+SQL: SELECT * FROM `product` WHERE ( id=157 ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: update book set count=count+'2' where id = '24' [ RunTime:0.065010s ]
+SQL: DELETE FROM `product` WHERE ( id=157 ) [ RunTime:0.037804s ]
+
+[ 2017-06-01T21:56:17+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-06-01T21:56:17+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/165
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005932s ]
+SQL: SELECT * FROM `product` WHERE ( id=165 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: update book set count=count+'3' where id = '26' [ RunTime:0.051969s ]
+SQL: DELETE FROM `product` WHERE ( id=165 ) [ RunTime:0.025912s ]
+
+[ 2017-06-01T21:56:17+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003861s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-06-01T21:56:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004724s ]
+SQL: SELECT * FROM `product` WHERE ( id=161 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: update book set count=count+'3' where id = '13' [ RunTime:0.107307s ]
+SQL: DELETE FROM `product` WHERE ( id=161 ) [ RunTime:0.036631s ]
+
+[ 2017-06-01T21:56:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.001316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-06-01T21:56:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004085s ]
+SQL: SELECT * FROM `product` WHERE ( id=156 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: update book set count=count+'2' where id = '21' [ RunTime:0.053755s ]
+SQL: DELETE FROM `product` WHERE ( id=156 ) [ RunTime:0.027718s ]
+
+[ 2017-06-01T21:56:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010945s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000658s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.001725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002170s ]
+
+[ 2017-06-01T21:56:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/155
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004362s ]
+SQL: SELECT * FROM `product` WHERE ( id=155 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: update book set count=count+'1' where id = '22' [ RunTime:0.104706s ]
+SQL: DELETE FROM `product` WHERE ( id=155 ) [ RunTime:0.026124s ]
+
+[ 2017-06-01T21:56:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-06-01T21:56:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004674s ]
+SQL: SELECT * FROM `product` WHERE ( id=178 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: update book set count=count+'4' where id = '18' [ RunTime:0.054726s ]
+SQL: DELETE FROM `product` WHERE ( id=178 ) [ RunTime:0.028265s ]
+
+[ 2017-06-01T21:56:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003628s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-06-01T21:56:19+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005508s ]
+SQL: SELECT * FROM `product` WHERE ( id=177 ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: update book set count=count+'3' where id = '16' [ RunTime:0.062043s ]
+SQL: DELETE FROM `product` WHERE ( id=177 ) [ RunTime:0.029024s ]
+
+[ 2017-06-01T21:56:19+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.016642s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.001129s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.002958s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2017-06-01T21:56:23+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/172
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.007281s ]
+SQL: SELECT * FROM `product` WHERE ( id=172 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: update book set count=count+'2' where id = '20' [ RunTime:0.111957s ]
+SQL: DELETE FROM `product` WHERE ( id=172 ) [ RunTime:0.027681s ]
+
+[ 2017-06-01T21:56:23+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-06-01T21:56:27+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.007724s ]
+SQL: SELECT * FROM `product` WHERE ( id=171 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: update book set count=count+'4' where id = '8' [ RunTime:0.104977s ]
+SQL: DELETE FROM `product` WHERE ( id=171 ) [ RunTime:0.042043s ]
+
+[ 2017-06-01T21:56:28+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.012735s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.001088s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.002243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003256s ]
+
+[ 2017-06-01T21:57:02+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.007537s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-06-01T21:57:06+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.025075s ]
+SQL: SELECT * FROM `product` WHERE ( id=180 ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: update book set count=count+'2' where id = '22' [ RunTime:0.084647s ]
+SQL: DELETE FROM `product` WHERE ( id=180 ) [ RunTime:0.042230s ]
+
+[ 2017-06-01T21:57:06+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003100s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011966s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000511s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.001012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2017-06-01T21:57:07+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/179
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.007591s ]
+SQL: SELECT * FROM `product` WHERE ( id=179 ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: update book set count=count+'2' where id = '21' [ RunTime:0.115141s ]
+SQL: DELETE FROM `product` WHERE ( id=179 ) [ RunTime:0.047804s ]
+
+[ 2017-06-01T21:57:08+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002615s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.006584s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000443s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000984s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-06-01T21:57:11+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/184
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004369s ]
+SQL: SELECT * FROM `product` WHERE ( id=184 ) LIMIT 1   [ RunTime:0.000598s ]
+SQL: update book set count=count+'1' where id = '26' [ RunTime:0.043221s ]
+SQL: DELETE FROM `product` WHERE ( id=184 ) [ RunTime:0.038279s ]
+
+[ 2017-06-01T21:57:11+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.006457s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.001135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2017-06-01T21:57:12+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/183
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004288s ]
+SQL: SELECT * FROM `product` WHERE ( id=183 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: update book set count=count+'3' where id = '25' [ RunTime:0.086260s ]
+SQL: DELETE FROM `product` WHERE ( id=183 ) [ RunTime:0.035849s ]
+
+[ 2017-06-01T21:57:12+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.006217s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2017-06-01T21:57:12+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.020724s ]
+SQL: SELECT * FROM `product` WHERE ( id=182 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: update book set count=count+'2' where id = '24' [ RunTime:0.084496s ]
+SQL: DELETE FROM `product` WHERE ( id=182 ) [ RunTime:0.046773s ]
+
+[ 2017-06-01T21:57:12+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/181
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004060s ]
+SQL: SELECT * FROM `product` WHERE ( id=181 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: update book set count=count+'2' where id = '23' [ RunTime:0.038560s ]
+SQL: DELETE FROM `product` WHERE ( id=181 ) [ RunTime:0.027833s ]
+
+[ 2017-06-01T21:57:12+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003752s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2017-06-01T21:57:12+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/176
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004417s ]
+SQL: SELECT * FROM `product` WHERE ( id=176 ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: update book set count=count+'3' where id = '17' [ RunTime:0.059577s ]
+SQL: DELETE FROM `product` WHERE ( id=176 ) [ RunTime:0.029532s ]
+
+[ 2017-06-01T21:57:12+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-06-01T21:57:13+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/174
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004462s ]
+SQL: SELECT * FROM `product` WHERE ( id=174 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: update book set count=count+'1' where id = '12' [ RunTime:0.150567s ]
+SQL: DELETE FROM `product` WHERE ( id=174 ) [ RunTime:0.045173s ]
+
+[ 2017-06-01T21:57:13+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/173
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004658s ]
+SQL: SELECT * FROM `product` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.000673s ]
+SQL: update book set count=count+'2' where id = '19' [ RunTime:0.050490s ]
+SQL: DELETE FROM `product` WHERE ( id=173 ) [ RunTime:0.048679s ]
+
+[ 2017-06-01T21:57:13+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002495s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004852s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2017-06-01T21:57:13+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/170
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004159s ]
+SQL: SELECT * FROM `product` WHERE ( id=170 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: update book set count=count+'3' where id = '13' [ RunTime:0.062163s ]
+SQL: DELETE FROM `product` WHERE ( id=170 ) [ RunTime:0.028094s ]
+
+[ 2017-06-01T21:57:13+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.007573s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2017-06-01T21:57:13+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/169
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005165s ]
+SQL: SELECT * FROM `product` WHERE ( id=169 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: update book set count=count+'3' where id = '14' [ RunTime:0.033994s ]
+SQL: DELETE FROM `product` WHERE ( id=169 ) [ RunTime:0.027785s ]
+
+[ 2017-06-01T21:57:13+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004358s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-06-01T21:57:14+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004287s ]
+SQL: SELECT * FROM `product` WHERE ( id=112 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: update book set count=count+'2' where id = '6' [ RunTime:0.071910s ]
+SQL: DELETE FROM `product` WHERE ( id=112 ) [ RunTime:0.027860s ]
+
+[ 2017-06-01T21:57:14+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005984s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2017-06-01T21:57:17+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/127
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004901s ]
+SQL: SELECT * FROM `product` WHERE ( id=127 ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: update book set count=count+'4' where id = '24' [ RunTime:0.044187s ]
+SQL: DELETE FROM `product` WHERE ( id=127 ) [ RunTime:0.030536s ]
+
+[ 2017-06-01T21:57:17+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003918s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-06-01T21:57:17+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004586s ]
+SQL: SELECT * FROM `product` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: update book set count=count+'2' where id = '25' [ RunTime:0.092323s ]
+SQL: DELETE FROM `product` WHERE ( id=131 ) [ RunTime:0.039521s ]
+
+[ 2017-06-01T21:57:17+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.006700s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2017-06-01T21:57:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005367s ]
+SQL: SELECT * FROM `product` WHERE ( id=130 ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: update book set count=count+'4' where id = '21' [ RunTime:0.061526s ]
+SQL: DELETE FROM `product` WHERE ( id=130 ) [ RunTime:0.079789s ]
+
+[ 2017-06-01T21:57:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004448s ]
+SQL: SELECT * FROM `product` WHERE ( id=128 ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: update book set count=count+'4' where id = '23' [ RunTime:0.043297s ]
+SQL: DELETE FROM `product` WHERE ( id=128 ) [ RunTime:0.030770s ]
+
+[ 2017-06-01T21:57:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003865s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-06-01T21:57:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/189
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.003758s ]
+SQL: SELECT * FROM `product` WHERE ( id=189 ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: update book set count=count+'4' where id = '10' [ RunTime:0.059771s ]
+SQL: DELETE FROM `product` WHERE ( id=189 ) [ RunTime:0.036311s ]
+
+[ 2017-06-01T21:57:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-06-01T21:57:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/188
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004254s ]
+SQL: SELECT * FROM `product` WHERE ( id=188 ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: update book set count=count+'2' where id = '15' [ RunTime:0.094030s ]
+SQL: DELETE FROM `product` WHERE ( id=188 ) [ RunTime:0.038271s ]
+
+[ 2017-06-01T21:57:18+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.006976s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000481s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000876s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2017-06-01T21:57:19+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/187
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004190s ]
+SQL: SELECT * FROM `product` WHERE ( id=187 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: update book set count=count+'4' where id = '8' [ RunTime:0.049695s ]
+SQL: DELETE FROM `product` WHERE ( id=187 ) [ RunTime:0.046740s ]
+
+[ 2017-06-01T21:57:19+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.005612s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2017-06-01T21:57:19+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/delete/id/186
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004098s ]
+SQL: SELECT * FROM `product` WHERE ( id=186 ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: update book set count=count+'3' where id = '14' [ RunTime:0.040407s ]
+SQL: DELETE FROM `product` WHERE ( id=186 ) [ RunTime:0.038189s ]
+
+[ 2017-06-01T21:57:19+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.007688s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000819s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,10 [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+

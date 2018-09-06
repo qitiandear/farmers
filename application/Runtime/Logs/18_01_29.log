@@ -1,0 +1,332 @@
+[ 2018-01-29T09:43:29+08:00 ] 192.168.8.102 /Farmers/admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-01-29T16:14:19+08:00 ] 192.168.8.102 /Farmers/admin.php/Login/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `admin` WHERE ( username='' and password='d41d8cd98f00b204e9800998ecf8427e' ) LIMIT 1   [ RunTime:0.048003s ]
+
+[ 2018-01-29T16:14:19+08:00 ] 192.168.8.102 /Farmers/admin.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:14:24+08:00 ] 192.168.8.102 /Farmers/admin.php/Login/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `admin` WHERE ( username='admin' and password='21232f297a57a5a743894a0e4a801fc3' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:14:24+08:00 ] 192.168.8.102 /Farmers/admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-29T16:14:24+08:00 ] 192.168.8.102 /Farmers/admin.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:14:25+08:00 ] 192.168.8.102 /Farmers/admin.php/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:14:25+08:00 ] 192.168.8.102 /Farmers/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-29T16:14:26+08:00 ] 192.168.8.102 /Farmers/admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:14:26+08:00 ] 192.168.8.102 /Farmers/admin.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:14:26+08:00 ] 192.168.8.102 /Farmers/admin.php/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:14:27+08:00 ] 192.168.8.102 /Farmers/admin.php/News/addnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 9 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 16 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 24 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 27 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 32 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 35 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 39 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 42 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 48 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 50 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 55 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 62 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 65 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 70 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 74 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 79 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 84 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 87 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 93 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 95 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 104 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 109 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 114 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 117 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 139 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 123 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 128 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 132 )  [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 9 [ RunTime:0.008000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 16 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 20 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 24 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 27 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 32 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 35 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 39 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 42 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 48 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 50 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 55 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 62 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 65 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 70 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 74 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 79 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 84 [ RunTime:0.001001s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 87 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 93 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 95 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 100 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 104 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 109 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 114 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 117 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 139 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 123 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 128 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 132 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:14:27+08:00 ] 192.168.8.102 /Farmers/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-29T16:14:30+08:00 ] 192.168.8.102 /Farmers/admin.php/News/checkType/typeId/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-29T16:14:31+08:00 ] 192.168.8.102 /Farmers/admin.php/News/checkType/typeId/39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

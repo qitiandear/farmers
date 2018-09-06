@@ -1,0 +1,244 @@
+[ 2017-05-21T21:43:08+08:00 ] 127.0.0.1 /xiaowu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2017-05-21T21:43:11+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.005028s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003867s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000251s ]
+SQL: select b.*,c.name as cname,c.uid,c.num,c.ip from book as b left join cart as c on c.uid=b.id where b.tid='1' [ RunTime:0.000932s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000235s ]
+SQL: select b.*,c.name as cname,c.uid,c.num,c.ip from book as b left join cart as c on c.uid=b.id where b.tid='2' [ RunTime:0.000371s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000250s ]
+SQL: select b.*,c.name as cname,c.uid,c.num,c.ip from book as b left join cart as c on c.uid=b.id where b.tid='3' [ RunTime:0.000331s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000222s ]
+SQL: select b.*,c.name as cname,c.uid,c.num,c.ip from book as b left join cart as c on c.uid=b.id where b.tid='4' [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.003145s ]
+SQL: SELECT * FROM `cart` WHERE ( ip='127.0.0.1' )  [ RunTime:0.000414s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `cart` WHERE ( ip='127.0.0.1' ) LIMIT 1   [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [2] Illegal string offset '' D:\www\xiaowu\application\Runtime\Cache\Home\eb18aac141bca66bd6a4fde7b3536eba.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-05-21T21:43:18+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003770s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004013s ]
+SQL: SELECT * FROM `book` WHERE ( tid=1 )  [ RunTime:0.000253s ]
+SQL: select b.*,c.name as cname,c.uid,c.num,c.ip from book as b left join cart as c on c.uid=b.id where b.tid='1' [ RunTime:0.000235s ]
+SQL: SELECT * FROM `book` WHERE ( tid=2 )  [ RunTime:0.000219s ]
+SQL: select b.*,c.name as cname,c.uid,c.num,c.ip from book as b left join cart as c on c.uid=b.id where b.tid='2' [ RunTime:0.000221s ]
+SQL: SELECT * FROM `book` WHERE ( tid=3 )  [ RunTime:0.000222s ]
+SQL: select b.*,c.name as cname,c.uid,c.num,c.ip from book as b left join cart as c on c.uid=b.id where b.tid='3' [ RunTime:0.000227s ]
+SQL: SELECT * FROM `book` WHERE ( tid=4 )  [ RunTime:0.000222s ]
+SQL: select b.*,c.name as cname,c.uid,c.num,c.ip from book as b left join cart as c on c.uid=b.id where b.tid='4' [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.003784s ]
+SQL: SELECT * FROM `cart` WHERE ( ip='127.0.0.1' )  [ RunTime:0.000222s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `cart` WHERE ( ip='127.0.0.1' ) LIMIT 1   [ RunTime:0.000205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2] Illegal string offset '' D:\www\xiaowu\application\Runtime\Cache\Home\eb18aac141bca66bd6a4fde7b3536eba.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-05-21T21:43:22+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/cart?id=13&num=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] Undefined index: userid D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.008549s ]
+SQL: SELECT * FROM `book` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.026461s ]
+SQL: SELECT * FROM `cart` WHERE ( uid='13' ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: update cart set num='0' where uid=13 [ RunTime:0.126210s ]
+SQL: DELETE FROM `cart` WHERE ( uid=13 ) [ RunTime:0.027955s ]
+SQL: SELECT * FROM `cart`  [ RunTime:0.000414s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-05-21T21:43:35+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/cart?id=10&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Undefined index: userid D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003589s ]
+SQL: SELECT * FROM `book` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.003753s ]
+SQL: SELECT * FROM `cart` WHERE ( uid='10' ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: insert cart (uid,name,num,ip,userid) value ('10','电视剧','1','127.0.0.1','') [ RunTime:0.051220s ]
+SQL: SELECT * FROM `cart`  [ RunTime:0.000344s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-05-21T21:43:37+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/cart?id=10&num=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] Undefined index: userid D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.039004s ]
+SQL: SELECT * FROM `book` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.014687s ]
+SQL: SELECT * FROM `cart` WHERE ( uid='10' ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: update cart set num='2' where uid=10 [ RunTime:0.107238s ]
+SQL: SELECT * FROM `cart`  [ RunTime:0.000299s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-05-21T21:43:42+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/cart?id=10&num=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8] Undefined index: userid D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004078s ]
+SQL: SELECT * FROM `book` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.003273s ]
+SQL: SELECT * FROM `cart` WHERE ( uid='10' ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: update cart set num='3' where uid=10 [ RunTime:0.066460s ]
+SQL: SELECT * FROM `cart`  [ RunTime:0.000340s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-05-21T21:43:46+08:00 ] 127.0.0.1 /xiaowu/index.php/Compose/cart?id=10&num=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: [8] Undefined index: userid D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003374s ]
+SQL: SELECT * FROM `book` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.003475s ]
+SQL: SELECT * FROM `cart` WHERE ( uid='10' ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: update cart set num='4' where uid=10 [ RunTime:0.064331s ]
+SQL: SELECT * FROM `cart`  [ RunTime:0.000343s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\xiaowu\application\Home\Controller\ComposeController.class.php 第 74 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2017-05-21T21:43:47+08:00 ] 127.0.0.1 /xiaowu/index.php/Clearing/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-05-21T21:43:51+08:00 ] 127.0.0.1 /xiaowu/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: ref D:\www\xiaowu\application\Runtime\Cache\Home\36492b1fb14166f9f10cc0f141d03c61.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+

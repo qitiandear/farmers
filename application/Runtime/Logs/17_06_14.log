@@ -1,0 +1,715 @@
+[ 2017-06-14T11:37:29+08:00 ] 127.0.0.1 /xiaowu/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006032s ]
+
+[ 2017-06-14T11:37:29+08:00 ] 127.0.0.1 /xiaowu/admin.php/Index/meun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-06-14T11:37:30+08:00 ] 127.0.0.1 /xiaowu/admin.php/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: user D:\www\xiaowu\application\Runtime\Cache\Admin\4ca91d3c54f9ede069f2a1e7427d821d.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002519s ]
+
+[ 2017-06-14T11:37:30+08:00 ] 127.0.0.1 /xiaowu/admin.php/Index/header
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-06-14T15:41:26+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/oper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.103782s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: select p.*,u.username as uname,u.tel from product as p join user as u on p.userid=u.id where state>=2 order by shijian asc limit 0,5 [ RunTime:0.011141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016858s ]
+
+[ 2017-06-14T15:41:28+08:00 ] 127.0.0.1 /xiaowu/admin.php/Make/dishonest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.004002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `product` WHERE ( state=2 and huanshu < current_date ) LIMIT 1   [ RunTime:0.136027s ]
+SQL: select p.*,u.username as uname from product as p join user as u on p.userid=u.id where huanshu< current_date and state=2 order by huanshu  asc limit 0,5 [ RunTime:0.034853s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-06-14T15:41:29+08:00 ] 127.0.0.1 /xiaowu/admin.php/Activity/history
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.004591s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activity` WHERE ( dateandtime < current_date  ) LIMIT 1   [ RunTime:0.000700s ]
+SQL: select a.id,a.title,a.dateandtime,a.address,a.imagepath,h.hd_name from activity as a join hd_type as h where a.hd_id=h.id and a.dateandtime < current_date order by dateandtime asc limit 0,5  [ RunTime:0.016743s ]
+SQL: SHOW COLUMNS FROM `behave` [ RunTime:0.003809s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='18' ) LIMIT 1   [ RunTime:0.000699s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='8' ) LIMIT 1   [ RunTime:0.000409s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='16' ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='7' ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='5' ) LIMIT 1   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-06-14T15:41:31+08:00 ] 127.0.0.1 /xiaowu/admin.php/Doing/examine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.004245s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activity` LIMIT 1   [ RunTime:0.000224s ]
+SQL: select title,dateandtime,address,id from activity where dateandtime >= current_date order by dateandtime asc limit 0,5  [ RunTime:0.028713s ]
+SQL: SHOW COLUMNS FROM `behave` [ RunTime:0.003157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='10' ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='11' ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='15' ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='17' ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( activityid='2' ) LIMIT 1   [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-06-14T15:41:33+08:00 ] 127.0.0.1 /xiaowu/admin.php/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-06-14T15:41:34+08:00 ] 127.0.0.1 /xiaowu/admin.php/Deal/der
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `hd_type` [ RunTime:0.003277s ]
+SQL: SELECT * FROM `hd_type`  [ RunTime:0.000140s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `behave` [ RunTime:0.003435s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='2' ) LIMIT 1   [ RunTime:0.000263s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.000211s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2017-06-14T15:41:34+08:00 ] 127.0.0.1 /xiaowu/admin.php/Deal/nbr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `hd_type` [ RunTime:0.003517s ]
+SQL: SELECT * FROM `hd_type`  [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `behave` [ RunTime:0.002913s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='2' ) LIMIT 1   [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-06-14T15:41:34+08:00 ] 127.0.0.1 /xiaowu/admin.php/Deal/mth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `hd_type` [ RunTime:0.003244s ]
+SQL: SELECT * FROM `hd_type`  [ RunTime:0.000127s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `behave` [ RunTime:0.002960s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='1'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='2'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='3'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='4'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='6'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 40 行.
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-06-14T15:41:34+08:00 ] 127.0.0.1 /xiaowu/admin.php/Deal/fmth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `hd_type` [ RunTime:0.002921s ]
+SQL: SELECT * FROM `hd_type`  [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `behave` [ RunTime:0.003937s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='1'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='2'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000318s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='3'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000299s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='4'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000286s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `behave` WHERE ( tid='6'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000257s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 55 行.
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-06-14T15:41:43+08:00 ] 127.0.0.1 /xiaowu/admin.php/Deal/oper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-06-14T15:41:44+08:00 ] 127.0.0.1 /xiaowu/admin.php/Deal/tst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `hd_type` [ RunTime:0.003235s ]
+SQL: SELECT * FROM `hd_type`  [ RunTime:0.000179s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 74 行.
+SQL: select  count(activityid) as value,hd.hd_name as name  from behave  join hd_type as hd  on tid='1' where hd.id='1' [ RunTime:0.023935s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 74 行.
+SQL: select  count(activityid) as value,hd.hd_name as name  from behave  join hd_type as hd  on tid='2' where hd.id='2' [ RunTime:0.000280s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 74 行.
+SQL: select  count(activityid) as value,hd.hd_name as name  from behave  join hd_type as hd  on tid='3' where hd.id='3' [ RunTime:0.000229s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 74 行.
+SQL: select  count(activityid) as value,hd.hd_name as name  from behave  join hd_type as hd  on tid='4' where hd.id='4' [ RunTime:0.007530s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 74 行.
+SQL: select  count(activityid) as value,hd.hd_name as name  from behave  join hd_type as hd  on tid='6' where hd.id='6' [ RunTime:0.000273s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 79 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-06-14T15:41:44+08:00 ] 127.0.0.1 /xiaowu/admin.php/Deal/nst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: select hd_name  from hd_type [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\DealController.class.php 第 89 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-06-14T15:41:46+08:00 ] 127.0.0.1 /xiaowu/admin.php/Stics/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-06-14T15:41:47+08:00 ] 127.0.0.1 /xiaowu/admin.php/Stics/der
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003394s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004109s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='2' ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='7' ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-06-14T15:41:47+08:00 ] 127.0.0.1 /xiaowu/admin.php/Stics/nbr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003372s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003312s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='1' ) LIMIT 1   [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='2' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='3' ) LIMIT 1   [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='4' ) LIMIT 1   [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='5' ) LIMIT 1   [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='6' ) LIMIT 1   [ RunTime:0.000061s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+SQL: SELECT SUM(sum) AS tp_sum FROM `book` WHERE ( tid='7' ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 27 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-06-14T15:41:47+08:00 ] 127.0.0.1 /xiaowu/admin.php/Stics/mth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.002926s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000210s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `stics` [ RunTime:0.003694s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='1'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='2'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='3'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='4'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='5'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='6'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='7'and  dateandtime>'2017-06-01' and dateandtime<'2017-06-30' ) LIMIT 1   [ RunTime:0.014487s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2017-06-14T15:41:47+08:00 ] 127.0.0.1 /xiaowu/admin.php/Stics/fmth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003257s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `stics` [ RunTime:0.002874s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='1'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000444s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='2'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='3'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='4'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='5'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='6'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+SQL: SELECT SUM(num) AS tp_sum FROM `stics` WHERE ( b_tid='7'and  dateandtime>'2017-05-01 00:00:00' and dateandtime<'2017-05-31 23:59:59' ) LIMIT 1   [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: par D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 61 行.
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 65 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-06-14T15:41:49+08:00 ] 127.0.0.1 /xiaowu/admin.php/Stics/oper
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.003509s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 34 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='1' where bt.id='1' [ RunTime:0.000094s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 34 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='2' where bt.id='2' [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 34 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='3' where bt.id='3' [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 34 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='4' where bt.id='4' [ RunTime:0.000119s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 34 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='5' where bt.id='5' [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 34 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='6' where bt.id='6' [ RunTime:0.000101s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 34 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='7' where bt.id='7' [ RunTime:0.000086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-06-14T15:41:49+08:00 ] 127.0.0.1 /xiaowu/admin.php/Stics/tst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `book_type` [ RunTime:0.004644s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000245s ]
+SQL: SELECT * FROM `book_type`  [ RunTime:0.000158s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 75 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='1' where bt.id='1' [ RunTime:0.000092s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 75 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='2' where bt.id='2' [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 75 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='3' where bt.id='3' [ RunTime:0.000079s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 75 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='4' where bt.id='4' [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 75 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='5' where bt.id='5' [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 75 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='6' where bt.id='6' [ RunTime:0.000090s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 75 行.
+SQL: select  sum(sum) as value,bt.name  from book  join book_type as bt  on tid='7' where bt.id='7' [ RunTime:0.000073s ]
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant par - assumed 'par' D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 80 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2017-06-14T15:41:49+08:00 ] 127.0.0.1 /xiaowu/admin.php/Stics/nst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: select name  from book_type [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: str D:\www\xiaowu\application\Admin\Controller\SticsController.class.php 第 91 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-06-14T17:19:20+08:00 ] 127.0.0.1 /xiaowu/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2017-06-14T17:19:20+08:00 ] 127.0.0.1 /xiaowu/admin.php/Index/header
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-06-14T17:19:20+08:00 ] 127.0.0.1 /xiaowu/admin.php/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: user D:\www\xiaowu\application\Runtime\Cache\Admin\4ca91d3c54f9ede069f2a1e7427d821d.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2017-06-14T17:19:20+08:00 ] 127.0.0.1 /xiaowu/admin.php/Index/meun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+

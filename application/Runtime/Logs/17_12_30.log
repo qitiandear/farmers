@@ -1,0 +1,833 @@
+[ 2017-12-30T17:06:48+08:00 ] 127.0.0.1 /Farmers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=10 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=10 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=11 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=11 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=12 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=12 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=13 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=13 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=14 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=15 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=16 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=17 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=18 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=18 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=19 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=19 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=21 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=21 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=22 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=22 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=23 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=23 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=24 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=25 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=25 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=26 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=26 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=27 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=28 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=28 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=29 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=29 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=30 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=30 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=31 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=31 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=32 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=33 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=33 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=34 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=34 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=35 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=36 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=36 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=37 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=37 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=38 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=38 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=39 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=40 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=40 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=41 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=41 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=43 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=43 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=44 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=44 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=45 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=45 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=46 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=46 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=47 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=47 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=48 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=49 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=49 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=50 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=51 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=51 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=52 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=52 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=53 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=53 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=54 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=54 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=55 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=56 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=56 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=57 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=57 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=58 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=58 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=59 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=59 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=60 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=60 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=61 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=61 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=62 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=63 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=63 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=64 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=64 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=66 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=66 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=67 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=67 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=68 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=68 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=69 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=69 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=71 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=71 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=72 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=72 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=73 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=73 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=74 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=75 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=75 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=76 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=76 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=77 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=77 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=78 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=78 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=79 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=80 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=80 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=81 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=81 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=82 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=82 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=83 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=83 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=84 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=85 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=85 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=86 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=86 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=88 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=88 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=89 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=89 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=90 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=90 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=91 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=91 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=92 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=92 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=93 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=94 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=94 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=95 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=96 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=97 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=97 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=98 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=98 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=99 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=99 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=101 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=101 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=102 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=102 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=103 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=103 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=6 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=105 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=105 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=106 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=106 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=107 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=107 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=108 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=108 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=109 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=110 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=110 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=111 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=111 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=112 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=112 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=113 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=113 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=114 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=115 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=115 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=116 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=116 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=117 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=118 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=118 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=119 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=120 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=120 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=121 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=121 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=122 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=122 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=7 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=8 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=124 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=124 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=125 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=125 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=126 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=126 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=127 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=127 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=128 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=129 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=129 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=130 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=130 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=131 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=131 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=134 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=134 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=132 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=133 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=133 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=135 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=135 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=136 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=136 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=137 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=137 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=138 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\Farmers\application\Home\Controller\IndexController.class.php:8) D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\Farmers\application\Home\Controller\IndexController.class.php:8) D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\Farmers\application\Home\Controller\IndexController.class.php:8) D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-30T17:07:02+08:00 ] 127.0.0.1 /Farmers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=10 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=10 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=11 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=11 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=12 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=12 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=13 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=13 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=14 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=14 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=15 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=16 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=17 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=18 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=18 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=19 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=19 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=20 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=21 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=21 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=22 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=22 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=23 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=23 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=24 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=25 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=25 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=26 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=26 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=27 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=28 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=28 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=29 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=29 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=30 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=30 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=31 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=31 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=32 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=33 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=33 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=34 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=34 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=35 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=36 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=36 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=37 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=37 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=38 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=38 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=39 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=40 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=40 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=41 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=41 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=43 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=43 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=44 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=44 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=45 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=45 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=46 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=46 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=47 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=47 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=48 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=49 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=49 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=50 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=51 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=51 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=52 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=52 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=53 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=53 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=54 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=54 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=55 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=56 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=56 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=57 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=57 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=58 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=58 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=59 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=59 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=60 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=60 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=61 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=61 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=62 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=63 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=63 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=64 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=64 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=66 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=66 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=67 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=67 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=68 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=68 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=69 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=69 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=71 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=71 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=72 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=72 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=73 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=73 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=74 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=75 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=75 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=76 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=76 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=77 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=77 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=78 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=78 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=79 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=80 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=80 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=81 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=81 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=82 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=82 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=83 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=83 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=84 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=85 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=85 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=86 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=86 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=88 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=88 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=89 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=89 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=90 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=90 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=91 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=91 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=92 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=92 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=93 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=94 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=94 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=95 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=96 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=96 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=97 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=97 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=98 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=98 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=99 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=99 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=101 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=101 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=102 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=102 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=103 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=103 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=6 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 )  [ RunTime:0.001001s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=105 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=105 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=106 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=106 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=107 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=107 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=108 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=108 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=109 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=110 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=110 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=111 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=111 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=112 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=112 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=113 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=113 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=114 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=115 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=115 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=116 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=116 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=117 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=118 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=118 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=119 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=119 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=120 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=120 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=121 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=121 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=122 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=122 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=7 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=8 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=124 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=124 )  [ RunTime:0.001001s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=125 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=125 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=126 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=126 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=127 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=127 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=128 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=129 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=129 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=130 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=130 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=131 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=131 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=134 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=134 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=132 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=133 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=133 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=135 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=135 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=136 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=136 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=137 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=137 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+SQL: SELECT * FROM `type` WHERE ( fid=138 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=138 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Farmers\application\Common\Common\function.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\Farmers\application\Home\Controller\IndexController.class.php:8) D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\Farmers\application\Home\Controller\IndexController.class.php:8) D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\Farmers\application\Home\Controller\IndexController.class.php:8) D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-30T17:28:34+08:00 ] 127.0.0.1 /Farmers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

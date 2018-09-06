@@ -1,0 +1,710 @@
+[ 2018-03-23T11:44:42+08:00 ] 127.0.0.1 /Farmers/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.075000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.055000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=16 and state< 9 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=20 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=24 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=27 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=32 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=35 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=39 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=42 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=48 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=50 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=55 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=62 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=65 and state< 9 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=70 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=79 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=84 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=87 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=93 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=95 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=100 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=104 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=109 and state< 9 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=114 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=117 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=139 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=123 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=128 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=132 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `imgpath` [ RunTime:0.048001s ]
+SQL: SELECT * FROM `imgpath` WHERE ( state<9 ) ORDER BY id desc LIMIT 0,4   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `articles` [ RunTime:0.035000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 116 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.025000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 130 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `articles` WHERE ( typeId = 131 ) ORDER BY articleId desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid = 132 ) ORDER BY typeId desc LIMIT 0,8   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:44:45+08:00 ] 127.0.0.1 /Farmers/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: userName D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\ec38c6caf7a7f474f9f595f89a41409c.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:44:47+08:00 ] 127.0.0.1 /Farmers/admin.php/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:44:47+08:00 ] 127.0.0.1 /Farmers/admin.php/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: userName D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\2843b2bbe7fab10da2e7633d25ea17a1.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T11:44:48+08:00 ] 127.0.0.1 /Farmers/admin.php/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:44:48+08:00 ] 127.0.0.1 /Farmers/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: userName D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\ec38c6caf7a7f474f9f595f89a41409c.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T11:44:51+08:00 ] 127.0.0.1 /Farmers/admin.php/News/addnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 6 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 7 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 8 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 10 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 11 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 13 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 16 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 18 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 19 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 21 )  [ RunTime:0.005000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 1 [ RunTime:0.015000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 2 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 3 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 4 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 5 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 6 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 7 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 8 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 9 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 10 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 11 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 13 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 14 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 15 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 16 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 17 [ RunTime:0.005000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 18 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 19 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 20 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 21 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T11:45:02+08:00 ] 127.0.0.1 /Farmers/admin.php/News/checkType/typeId/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 )  [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:45:06+08:00 ] 127.0.0.1 /Farmers/admin.php/News/addnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 2 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 3 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 4 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 5 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 6 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 7 )  [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 8 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 10 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 11 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 13 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 14 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 15 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 16 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 17 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 18 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 19 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 20 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 21 )  [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 1 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 2 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 3 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 4 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 5 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 6 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 7 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 8 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 9 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 10 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 11 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 13 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 14 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 15 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 16 [ RunTime:0.005000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 17 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 18 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 19 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 20 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 21 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T11:45:09+08:00 ] 127.0.0.1 /Farmers/admin.php/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:45:16+08:00 ] 127.0.0.1 /Farmers/admin.php/User/checkNM/userName/123123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.085000s ]
+SQL: SELECT * FROM `admin` WHERE ( username='123123' ) LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-03-23T11:45:21+08:00 ] 127.0.0.1 /Farmers/admin.php/User/checkNM/userName/123456789
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `admin` WHERE ( username='123456789' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-03-23T11:45:32+08:00 ] 127.0.0.1 /Farmers/admin.php/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `admin` WHERE ( username='123456789' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: insert into admin(userName,password,qxId) values ('123456789','4297f44b13955235245b2497399d7a93','9,65,70,74,139') [ RunTime:0.055000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:45:33+08:00 ] 127.0.0.1 /Farmers/admin.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=0 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=1 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=2 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=3 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=4 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=5 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=6 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=7 and state< 9 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=8 and state< 9 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\Farmers\application\Runtime\Cache\Admin\1fa1f30d2cc8cc05a09dcad731cffc60.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:45:35+08:00 ] 127.0.0.1 /Farmers/admin.php/Login/quit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T11:45:36+08:00 ] 127.0.0.1 /Farmers/admin.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:45:41+08:00 ] 127.0.0.1 /Farmers/admin.php/Login/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `admin` WHERE ( username='123456789' and password='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:45:41+08:00 ] 127.0.0.1 /Farmers/admin.php/Admin/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T11:45:41+08:00 ] 127.0.0.1 /Farmers/admin.php/Admin/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T11:45:41+08:00 ] 127.0.0.1 /Farmers/admin.php/Admin/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:45:42+08:00 ] 127.0.0.1 /Farmers/admin.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:45:44+08:00 ] 127.0.0.1 /Farmers/admin.php/News/addnews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 9 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 65 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 70 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 74 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `type` WHERE ( `typeId` = 139 )  [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 9 [ RunTime:0.001001s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 65 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 70 [ RunTime:0.000000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 74 [ RunTime:0.001000s ]
+SQL: select typeId,CONCAT('--',typeName) as typeName from type where fid = 139 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:45:47+08:00 ] 127.0.0.1 /Farmers/admin.php/News/checkType/typeId/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=9 )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-23T11:46:57+08:00 ] 127.0.0.1 /Farmers/admin.php/News/checkType/typeId/74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\Farmers\library\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `type` WHERE ( fid=74 )  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
